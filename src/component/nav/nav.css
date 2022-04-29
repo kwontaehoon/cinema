@@ -1,0 +1,154 @@
+ .active{
+     background-color: brown;
+ }
+
+
+
+.k-container-nav{
+    padding: 10px;
+    display: flex;
+}
+.k-box1{
+    border-left: 1px solid black;
+    flex: 0 0 30%;
+    height: 700px;
+}
+.k-box1-top{
+    background-color: #00c9c7;
+    color: white;
+    text-align: center;
+}
+.k-box1-middle{
+    background-color: violet;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.scrollbox{
+    flex: 0 0 60%;
+    height: 25px;
+    border-radius: 15px;
+}
+.iconbox{
+    flex: 0 0 40%;
+    display: flex;
+    margin-left: 0px;
+    justify-content: flex-end;
+}
+.iconbox div{
+    padding: 5px;
+}
+.k-box1-bottom{
+    height: 650px;
+    overflow: auto;
+}
+.bar{
+    border-bottom: 2px solid black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.age{
+    flex: 0 0 15%;
+    border-radius: 50%;
+    padding: 5px;
+}
+.title{
+    flex: 0 0 85%;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.bar2{
+    display: flex;
+    border: 1px solid black;
+    height: 100px;
+    align-items: center;
+}
+.bar2-left{
+    flex: 0 0 30%;
+    height: 80px;
+    border: 1px solid black;
+    position: relative;
+}
+.bar2-left img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.bar2-right{
+    flex: 0 0 70%;
+    display: flex;
+    align-items: center;
+}
+.age2{
+    padding: 5px;
+}
+.title2{
+    font-size: 18px;
+}
+
+.k-box2{
+    flex: 0 0 30%;
+    border: 1px solid black;
+}
+
+.k-box2-top{
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+.k-box2-middle{
+    background-color: antiquewhite;
+    display: flex;
+    height: 60px;
+}
+.k-box2-middle-leftbox{
+    flex: 0 0 50%;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid black;
+}
+.k-box2-middle-rightbox{
+    flex: 0 0 50%;
+    line-height: 50px;
+    text-align: center;
+}
+.k-box2-middle-leftbox:hover{
+    background-color: darkgrey;
+}
+.k-box2-middle-rightbox:hover{
+    background-color: darkgrey;
+}
+.k-box2-bottom{
+    height: 650px;
+    display: flex;
+   
+}
+.k-box2-bottom-leftbox{
+    flex: 0 0 50%;
+    border-right: 1px solid black;
+}
+.k-box2-bottom-leftbox div{
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+.k-box2-bottom-rightbox{
+    flex: 0 0 50%;
+}
+.k-box2-bottom-rightbox div{
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+.kwon {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 0.3s;
+}
+.tae{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
