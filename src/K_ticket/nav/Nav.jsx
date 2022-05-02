@@ -62,9 +62,9 @@ export default function Nav() {
 const List = (props) =>{
     const arr2 = [];
     for(let i of props.arr){
-    arr2.push(<div className='bar' id={i.id} onClick={changeColor} key={i.id} style={{backgroundColor: color[i.id-1]}}>
-        <div className='age'><img src={i.img}></img></div>
-        <div className='title'>{i.title}</div>
+    arr2.push(<div className='k-bar' id={i.id} onClick={changeColor} key={i.id} style={{backgroundColor: color[i.id-1]}}>
+        <div className='k-age'><img src={i.img}></img></div>
+        <div className='k-title'>{i.title}</div>
     </div>);
     }
 return(
@@ -76,13 +76,13 @@ return(
 const List2 = (props) => {
     const arr2 = [];
     for(let i of props.arr){
-        arr2.push( <div className='bar2' key={i.id}>
-        <div className='bar2-left'>
+        arr2.push( <div className='k-bar2' key={i.id}>
+        <div className='k-bar2-left'>
             <div><img src={i.poster}></img></div>
         </div>
-        <div className='bar2-right'>
-            <div className='age2'><img src={i.img}></img></div>
-            <div className='title2'>{i.title}</div>
+        <div className='k-bar2-right'>
+            <div className='k-age2'><img src={i.img}></img></div>
+            <div className='k-title2'>{i.title}</div>
         </div>
     </div>)
     }
@@ -164,7 +164,7 @@ const changeColor = (e) => {
     console.log('클릭되었습니다.');
 
     anime({
-        targets: '.kkkk',
+        targets: '.k-kkkk',
         // translateX: {
         //   value: 250,
         //   duration: 800
@@ -236,11 +236,11 @@ if(tae !== 0){
         <div className='k-box1'>
             <div className='k-box1-top'>영화</div>
             <div className='k-box1-middle'>
-                <select className="scrollbox" onChange={sort}>
+                <select className="k-scrollbox" onChange={sort}>
                     <option value="1">예매순</option>
                     <option value="2">평점순</option>
                 </select>
-                <div className='iconbox'>
+                <div className='k-iconbox'>
                    
                 <div><i className="fa-solid fa-bars" onClick={bar}></i></div>
                 <div><i className="fa-solid fa-border-all" onClick={grid}></i></div>
@@ -273,7 +273,7 @@ if(tae !== 0){
 
         <div className='k-box3'>
             <div className='k-box3-top'>
-                <div className='kkkk'>{content3}</div>
+                <div className='k-kkkk'>{content3}</div>
             </div>
 
             <div className='k-box3-right'>

@@ -1,20 +1,15 @@
- .active{
-     background-color: brown;
- }
-
- [class*='k-container']{
+[class*='k-container']{
     border: 2px solid black;
     margin: auto;
     width: 1200px;
 }
-
 .k-container-nav{
     padding: 10px;
     display: flex;
     font-family: "HoengseongHanu";
 }
 .k-box1{
-    border-left: 1px solid black;
+    border: 1px solid black;
     flex: 0 0 30%;
     height: 800px;
 }
@@ -30,67 +25,67 @@
     align-items: center;
     padding: 5px;
 }
-.scrollbox{
+.k-scrollbox{
     flex: 0 0 60%;
     height: 25px;
     border-radius: 15px;
 }
-.iconbox{
+.k-iconbox{
     flex: 0 0 40%;
     display: flex;
     margin-left: 0px;
     justify-content: flex-end;
 }
-.iconbox div{
+.k-iconbox div{
     padding: 5px;
 }
 .k-box1-bottom{
     height: 650px;
     overflow: auto;
 }
-.bar{
+.k-bar{
     border-bottom: 2px solid black;
     height: 35px;
     display: flex;
     align-items: center;
 }
-.age{
+.k-age{
     flex: 0 0 15%;
     border-radius: 50%;
     padding: 5px;
 }
-.title{
+.k-title{
     flex: 0 0 85%;
     padding: 0 5px;
     font-size: 12px;
 }
-.bar2{
+.k-bar2{
     display: flex;
     border: 1px solid black;
     height: 100px;
     align-items: center;
 }
-.bar2-left{
+.k-bar2-left{
     flex: 0 0 30%;
     height: 80px;
     border: 1px solid black;
     position: relative;
 }
-.bar2-left img{
+.k-bar2-left img{
     position: absolute;
     width: 100%;
     height: 100%;
 
 }
-.bar2-right{
+.k-bar2-right{
     flex: 0 0 70%;
     display: flex;
     align-items: center;
 }
-.age2{
+.k-age2{
     padding: 5px;
 }
-.title2{
+.k-title2{
     font-size: 18px;
 }
 
@@ -173,7 +168,6 @@
     width: 100%;
     height: 100%;
 }
-  
   .swiper-slide {
     text-align: center;
     font-size: 18px;
