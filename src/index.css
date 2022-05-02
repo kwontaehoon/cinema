@@ -9,3 +9,9 @@ body{
   margin: auto;
   width: 1200px;
 }
+@font-face {
+  font-family: 'HoengseongHanu';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/HoengseongHanu.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

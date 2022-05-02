@@ -1,5 +1,5 @@
-import Header from "./component/header/Header";
-import Nav from "./component/nav/Nav";
+import Header from "./K_ticket/header/Header";
+import Nav from "./K_ticket/nav/Nav"
 import {BrowserRouter,Routes, Route, Link} from "react-router-dom";
 
 function App() {
@@ -7,8 +7,6 @@ function App() {
     <>
     <Header></Header>
     <Nav></Nav>
-    
-
     </>
 
   );
